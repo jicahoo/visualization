@@ -1,5 +1,6 @@
 import csv
 import numpy as np
+from matplotlib import patches
 from scipy import stats
 import matplotlib.pyplot as plt
 
@@ -66,20 +67,50 @@ def get_x_y_data():
     return x_np_data, y_np_data
 
 
-if __name__ == '__main__':
+def solution_a():
     x_np_data, y_np_data = get_x_y_data()
     heatmap, xedges, yedges = get_heap_data(x_np_data, y_np_data)
     print  heatmap
     print  xedges
     print yedges
-    xedges = xedges*100
+    xedges = xedges
     extent = [xedges[0], xedges[-1], yedges[0], yedges[-1]]
     plt.clf()
-    plt.imshow(heatmap, extent=extent)
+    plt.imshow(heatmap, extent=extent,aspect='auto')
     plt.colorbar()
     plt.title('Draft: Need refine.')
     plt.xlabel("X")
     plt.ylabel("Y")
+
     plt.show()
+
+def solution_b():
+    x_np_data, y_np_data = get_x_y_data()
+    heatmap, xedges, yedges = get_heap_data(x_np_data, y_np_data)
+    print  heatmap
+    print  xedges
+    print yedges
+    xedges = xedges
+    extent = [xedges[0], xedges[-1], yedges[0], yedges[-1]]
+    # Create figure and axes
+    fig, ax = plt.subplots(1)
+
+    print type(ax)
+    # Display the image
+    ax.imshow(heatmap, extent=extent, aspect='auto')
+
+    # Create a Rectangle patch
+    rect = patches.Rectangle((50, 100), 40, 30, linewidth=10, edgecolor='r', facecolor='none')
+    someX, someY = 0.5, 0.5
+    ax.add_patch(patches.Rectangle((someX - 0.1, someY - 0.1), 0.2, 0.2,
+                                    alpha=1, facecolor='none'))
+    # Add the patch to the Axes
+    # ax.add_patch(rect)
+
+    plt.show()
+
+if __name__ == '__main__':
+    solution_b()
+
 
 
