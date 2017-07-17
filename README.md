@@ -17,13 +17,16 @@ A sample Python program (based on matplotlib) to draw 2d histogram based on heat
 
 ### 4. Copy data and python file into PyCharm
 * If the data in Excel, export it as csv.
-* Download python program from https://github.com/jicahoo/visualization. Just click the green button: download the zip.
+* Download python program from https://github.com/jicahoo/visualization. Just click the green button 'Clone or download', then select download zip.
 ![Alt text](images/GitHub_Download_Code.PNG?raw=true "Download from Github")
-* Copy files and just rigth click on Project folter, then click paste.
+* Copy files and just rigth click on Project folder, then click paste.
+![Alt text](images/PyCharm_Paste_Files_To_Project.PNG?raw=true "Paste files to PyCharm project.")
 
 ### 5. Run Python and get the chart.
 * Right click on the python file, then select run.
+![Alt text](images/PyCharm_Run_Python_File.PNG?raw=true "PyCharm run program.")
 * You will see result like blow,
+![Alt text](images/PyCharm_Run_Result.PNG?raw=true "PyCharm run result.b")
 
 ## Learn matplotlib
 * http://www.voidcn.com/blog/baibaibai66/article/p-5973503.html
