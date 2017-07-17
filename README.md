@@ -12,7 +12,7 @@ Some materials or programs.
 
 ### 3. Create workspace in PyCharm
 * Click File -> New Project. 
-![Alt text](images/PyCharm_Create_Project.PNG.PNG?raw=true "Create PyCharm Project")
+![Alt text](images/PyCharm_Create_Project.PNG?raw=true "Create PyCharm Project")
 * Choose python interpreter from Anaconda:
 ![Alt text](images/PyCharm_Config_Project_Interpreter.PNG?raw=true "Select Python Interpreter for PyCharm")
 
