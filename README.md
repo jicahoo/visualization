@@ -9,6 +9,8 @@ Some materials or programs.
 * https://www.jetbrains.com/pycharm/download/#section=windows
 * Choose community version.
 * Configure Pytcharm
+* Choose python interpreter from Anaconda:
+![Alt text](images/PyCharm_Config_Project_Interpreter.PNG?raw=true "Title")
 
 
 ## HeatMap
