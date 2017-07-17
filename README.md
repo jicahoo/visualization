@@ -1,6 +1,6 @@
 # visualization
 A sample Python program (based on matplotlib) to draw 2d histogram based on heatmap. And some enviroment setup tips for beginers.
-If you don't know what is matplotlib, check in links in section 'Learn matplotlib'. All of them are Chinese materials.
+If you don't know what is matplotlib, check links in section 'Learn matplotlib'. All of them are Chinese materials. Then refer to section 'Steps to setup environment' to set up the environment on your computer.
 
 ## Learn matplotlib
 * http://www.voidcn.com/blog/baibaibai66/article/p-5973503.html
