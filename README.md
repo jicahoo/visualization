@@ -4,7 +4,7 @@ Some materials or programs.
 ## Steps to setup enviroment
 ### 1. Download and install Anaconda
 * https://www.continuum.io/downloads 
-* Choose Python 2.7 version. Address is 
+* Choose Python 2.7 version. 
 ### 2. Download and install PyCharm
 * https://www.jetbrains.com/pycharm/download/#section=windows
 * Choose community version.
