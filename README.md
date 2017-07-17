@@ -1,5 +1,11 @@
 # visualization
 A sample Python program (based on matplotlib) to draw 2d histogram based on heatmap. And some enviroment setup tips for beginers.
+If you don't know what is matplotlib, check in links in section 'Learn matplotlib'. All of them are Chinese materials.
+
+## Learn matplotlib
+* http://www.voidcn.com/blog/baibaibai66/article/p-5973503.html
+* http://www.jianshu.com/p/ee8bb1bd0019
+* [Analysis on core of matplotlib](http://transcoder.tradaquan.com/from=1012852s/bd_page_type=1/ssid=07124e69626f725f5564696162920d/uid=0/pu=usm%401%2Csz%401320_1004%2Cta%40iphone_2_4.4_11_8.8/baiduid=FF693112255F19D66BCA244A4681EB5C/w=0_10_/t=iphone/l=3/tc?ref=www_iphone&lid=12651042544709539894&order=1&fm=alop&h5ad=1&srd=1&dict=32&tj=www_normal_1_0_10_title&url_mf_score=4&vit=osres&m=8&cltj=cloud_title&asres=1&nt=wnor&title=%E7%BB%98%E5%9B%BE%3Amatplotlib%E6%A0%B8%E5%BF%83%E5%89%96%E6%9E%90-Vamei-%E5%8D%9A%E5%AE%A2%E5%9B%AD&w_qd=IlPT2AEptyoA_yisHVOxJywg&sec=22490&di=204aa7717a7c6792&bdenc=1&tch=124.0.286.231.0.0&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_ytK1DK6mlrte4viZQRAVD0yNX0TUS4stmGGe2dYtXLR0WYn7gV2mqxpxmdN7H8wdcbqex_HGhQRcNkk2dq&eqid=af91882a93c418001000000359698165&wd)
 
 ## Steps to setup enviroment
 ### 1. Download and install Anaconda
@@ -28,10 +34,7 @@ A sample Python program (based on matplotlib) to draw 2d histogram based on heat
 * You will see result like blow,
 ![Alt text](images/PyCharm_Run_Result.PNG?raw=true "PyCharm run result.b")
 
-## Learn matplotlib
-* http://www.voidcn.com/blog/baibaibai66/article/p-5973503.html
-* http://www.jianshu.com/p/ee8bb1bd0019
-* [Analysis on core of matplotlib](http://transcoder.tradaquan.com/from=1012852s/bd_page_type=1/ssid=07124e69626f725f5564696162920d/uid=0/pu=usm%401%2Csz%401320_1004%2Cta%40iphone_2_4.4_11_8.8/baiduid=FF693112255F19D66BCA244A4681EB5C/w=0_10_/t=iphone/l=3/tc?ref=www_iphone&lid=12651042544709539894&order=1&fm=alop&h5ad=1&srd=1&dict=32&tj=www_normal_1_0_10_title&url_mf_score=4&vit=osres&m=8&cltj=cloud_title&asres=1&nt=wnor&title=%E7%BB%98%E5%9B%BE%3Amatplotlib%E6%A0%B8%E5%BF%83%E5%89%96%E6%9E%90-Vamei-%E5%8D%9A%E5%AE%A2%E5%9B%AD&w_qd=IlPT2AEptyoA_yisHVOxJywg&sec=22490&di=204aa7717a7c6792&bdenc=1&tch=124.0.286.231.0.0&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_ytK1DK6mlrte4viZQRAVD0yNX0TUS4stmGGe2dYtXLR0WYn7gV2mqxpxmdN7H8wdcbqex_HGhQRcNkk2dq&eqid=af91882a93c418001000000359698165&wd)
+
 
 ## HeatMap
 * https://stackoverflow.com/questions/35946821/smoothing-my-heatmap-in-python
