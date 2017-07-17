@@ -22,7 +22,7 @@ If you don't know what is matplotlib, check links in section 'Learn matplotlib'.
 ![Alt text](images/PyCharm_Config_Project_Interpreter.PNG?raw=true "Select Python Interpreter for PyCharm")
 
 ### 4. Copy data and python file into PyCharm
-* If the data in Excel, export it as csv.
+* If the data in Excel, export it as csv. And name it after 2d_histogram.csv. And copy it to PyCharm project.
 * Download python program from https://github.com/jicahoo/visualization. Just click the green button 'Clone or download', then select download zip.
 ![Alt text](images/GitHub_Download_Code.PNG?raw=true "Download from Github")
 * Copy files and just rigth click on Project folder, then click paste.
