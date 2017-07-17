@@ -1,6 +1,5 @@
 # visualization
-Some materials or programs.
-
+A sample Python program (based on matplotlib) to draw 2d histogram based on heatmap. And some enviroment setup tips for beginers.
 
 ## Steps to setup enviroment
 ### 1. Download and install Anaconda
@@ -18,7 +17,8 @@ Some materials or programs.
 
 ### 4. Copy data and python file into PyCharm
 * If the data in Excel, export it as csv.
-* Download python program from.
+* Download python program from https://github.com/jicahoo/visualization. Just click the green button: download the zip.
+![Alt text](images/GitHub_Download_Code.PNG?raw=true "Download from Github")
 * Copy files and just rigth click on Project folter, then click paste.
 
 ### 5. Run Python and get the chart.
